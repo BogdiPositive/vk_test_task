@@ -1,0 +1,111 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 123, 255, 0.25) 0px 25px 50px -12px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border: 1px solid #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .form-select {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  .form-select:focus {
+    outline: none;
+    border: 1px solid #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .form-textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .form-textarea:focus {
+    outline: none;
+    border: 1px solid #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  
+  
+  .form-button {
+    display: inline-block;
+
+    padding: 0.5rem;
+    font-size: 1rem;
+
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #212529;
+    background-color: #fff;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+  
+  .form-button:hover {
+    color: #212529;
+    background-color: #f2f2f2;
+    border-color: #b8c2cc;
+  }
+  
+  .form-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba
+  }
+
+  .form-error {
+    max-width: 40rem;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+  }

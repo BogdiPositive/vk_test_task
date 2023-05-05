@@ -44,11 +44,23 @@
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
   }
+
+  .invalid-select{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #cf1c1c;
+    border-radius: 0.25rem;
+  }
   
   .form-select:focus {
     outline: none;
     border: 1px solid #80bdff;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    
   }
   
   .form-textarea {
